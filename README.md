@@ -1,4 +1,4 @@
-# Cosmetic review analysis using topic modeling and sentiment analysis
+# 토픽모델링과 감성분석을 이용한 화장품 리뷰 분석
 --------
 ### 1. 전처리
 ### 2. 토픽모델링
