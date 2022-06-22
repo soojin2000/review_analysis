@@ -16,8 +16,7 @@
 - 분류 모델 : SVM, Logistic Regression, SGD, NB 분류모델의 성능 비교
 
 ### 4. 시각화(Visualization)
-- plotly를 이용한 시각화
-- 사용자가 특정 토픽에 대해 긍정적으로 평가한 비율과 리뷰 문장 중에서 특정 토픽에 대해 평가한 비율 제공
--
-
 ![image01](https://user-images.githubusercontent.com/49268298/175094119-da348e6b-2526-4d2e-ac67-ddef2ed05e69.png)
+- plotly를 이용한 시각화
+- 특정 토픽에 대한 긍정적으로 평가한 비율과 리뷰 문장 중에서 특정 토픽에 대한 평가 비율 제공
+- 사용자가 검색한 제품들을 동시에 확인 및 비교 가능
