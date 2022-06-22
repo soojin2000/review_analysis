@@ -8,7 +8,7 @@
 ### 2. 토픽모델링(LDA & Word2Vec & Spliting sentences)
 - LDA : 리뷰에서 평가 요소(토픽) 도출  
 - Word2Vec : LDA로 도출한 토픽의 키워드 추출  
-- 문장 분리 : 키워드를 이용한 문장 분리 및 토픽 별 문류
+- 문장 분리 : 키워드를 이용한 문장 분리 및 토픽 별 분류
 
 ### 3. 감성분석(Sentiment Analysis)
 - 감성사전 구축 : KNU 감성사전에 LR모델의 coefficient값을 통해 도출한 도메인 특화된 긍부정어 추가
