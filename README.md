@@ -5,7 +5,6 @@
 - 전처리 : 데이터 정제, 형태소 분석 및 토큰화, 합성명사 처리  
 - 피부타입 재분류 : NoneType 데이터 중 일부를 리뷰 내용을 통해 건성, 지성, 복합성으로 재분류
   
-  
 ### 2. 토픽모델링(LDA & Word2Vec & Spliting sentences)
 - LDA : 리뷰에서 평가 요소(토픽) 도출  
 - Word2Vec : LDA로 도출한 토픽의 키워드 추출  
@@ -14,6 +13,11 @@
 ### 3. 감성분석(Sentiment Analysis)
 - 감성사전 구축 : KNU 감성사전에 LR모델의 coefficient값을 통해 도출한 도메인 특화된 긍부정어 추가
 - 준지도 학습 : 200개의 직접 labeling한 문장을 초기 입력값으로 한 준지도 학습 모델 구축
-- 분류 모델 : SVM, 
+- 분류 모델 : SVM, Logistic Regression, SGD, NB 분류모델의 성능 비교
 
 ### 4. 시각화(Visualization)
+- plotly를 이용한 시각화
+- 사용자가 특정 토픽에 대해 긍정적으로 평가한 비율과 리뷰 문장 중에서 특정 토픽에 대해 평가한 비율 제공
+-
+
+![image01](https://user-images.githubusercontent.com/49268298/175094119-da348e6b-2526-4d2e-ac67-ddef2ed05e69.png)
