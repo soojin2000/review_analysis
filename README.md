@@ -13,7 +13,7 @@
 
 ### 3. 감성분석(Sentiment Analysis)
 - 감성사전 구축 : KNU 감성사전에 LR모델의 coefficient값을 통해 도출한 도메인 특화된 긍부정어 추가
-- 준지도 학습 : 200개의 직접 labeling한 문장을 초기 입력값으로 한 준지도 학습 모델 구축
+- 준지도 학습 : 200개의 직접 labeling한 문장을 초기 입력값으로 한 준지도 학습 모델(SVM) 구축
 - 분류 모델 : SVM, Logistic Regression, SGD, NB 분류모델의 성능 비교
 
 ### 4. 시각화(Visualization)
