@@ -50,7 +50,7 @@ KNU 감성사전에 LR모델의 coefficient값을 통해 도출한 도메인 특
 200개의 직접 labeling한 문장을 초기 입력값으로 한 준지도 학습 모델(SVM)을 구축했다.
 ##### 분류 모델
 scikit-learn의 LogisticRegression, MultinomialNB, rbf kernel SVM, SCDClassifier 분류모델의 성능을 비교했다.  
-독립변수X : 리뷰에 등장한 각 단어들의 tf-idf값 
+독립변수X : 리뷰에 등장한 각 단어들의 tf-idf값  
 종속변수y : 사용자가 리뷰에 부여한 1~5점의 별점 중 1, 2, 3점을 부정인 class 0으로, 5점을 긍정인 class 1로 매핑한 값
 #### 최종 감성분석
 문장단위 감성분석을 위해 다음 3가지 기법을 테스트 해보고 가장 성능이 좋은 분류모델-나이브베이지안 모델을 이용하여 최종 감성분석을 실시했다.
